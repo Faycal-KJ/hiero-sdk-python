@@ -118,41 +118,12 @@ A [sample .env](.env.example) file is provided in the root of this project. If y
 the Hedera testnet, you can easily get one from the [Hedera Portal](https://portal.hedera.com/). Learn more about
 testnet [here](https://docs.hedera.com/guides/testnet).
 
-## Running Tests
-
-To run the test suite for the SDK, use the following command:
-```
-uv run pytest 
-```
-
-The test file in the root of this project will be automatically run when pushing onto a branch.
-This is done by running 'Hiero Solo Action'. Read more about it here:
-
-- [Github Marketplace](https://github.com/marketplace/actions/hiero-solo-action)
-- [Blog Post by Hendrik Ebbers](https://dev.to/hendrikebbers/ci-for-hedera-based-projects-2nja)
-
-#### Output:
-```
-Account creation successful. New Account ID: 0.0.5025xxx
-New Account Private Key: 228a06c363b0eb328434d51xxx...
-New Account Public Key: 8f444e36e8926def492adxxx...
-Token creation successful. Token ID: 0.0.5025xxx
-Token association successful.
-Token dissociation successful.
-Token minting successful.
-Token transfer successful.
-Token freeze successful.
-Token Unfreeze successful.
-Token deletion successful.
-Topic creation successful.
-Topic Message submitted.
-Topic update successful.
-Topic deletion successful.
-```
+## Testing:
+If you are Interested in Testing Please see [README_testing.md](README_testing.md) for the full Testing Guide.
 
 ## Contributing
 
-We appreciate your interest in improving the Hiero Python SDK! Please see CONTRIBUTING.md for details about our contribution process, including bug reports, feature requests, and code contributions.
+We appreciate your interest in improving the Hiero Python SDK! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for details about our contribution process, including bug reports, feature requests, and code contributions.
 
 ## License
 
